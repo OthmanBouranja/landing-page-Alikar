@@ -1372,6 +1372,7 @@ a:hover {
 .chat_icon{
 	position: fixed;
 	bottom: 0;
+  
 	right: 70px;
 	z-index: 1000;
 	padding: 0;
