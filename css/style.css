@@ -1038,7 +1038,7 @@ z-index: 1;
 .text-count-respo{
   display: none !important;
 }
-@media (max-width: 768px){
+@media (max-width: 768px){²x
   .logo-site-respo{
     margin-left: -12%;
   }
@@ -1228,6 +1228,10 @@ z-index: 1;
   z-index: 9999;
   left: 90%;
 }
+.chat_box{
+  width: 390px !important;
+  right: 20px !important;
+}
 }
 @media (max-width: 376px){
   .testimotionals{
@@ -1237,9 +1241,17 @@ z-index: 1;
   .titreCard {
     font-size: 29px !important;
 }
+.chat_box{
+  width: 344px !important;
+  right: 15px !important;
+}
 }
 @media (max-width: 321px){
   
+  .chat_box{
+    width: 305px !important;
+    right: 8px !important;
+  }
   .testimotionals {
     margin-left: -24px;
   }  
