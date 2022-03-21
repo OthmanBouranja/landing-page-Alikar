@@ -222,7 +222,7 @@ div.conv-form-wrapper div.options div.option {
     display: inline-block;
     margin: 5px;
     background: #fff;
-    color: #06c5a6;
+    color: #03a9f4;
     cursor: pointer;
     border-radius: 20px;
     font-size: 0.9rem;
@@ -260,7 +260,7 @@ div.conv-form-wrapper  div#messages div.message.to {
     border-top-left-radius: 0;
 }
 div.conv-form-wrapper div#messages div.message.from {
-    background: #06b79a;
+    background: #03a9f4;
     color: #fff;
     border-top-right-radius: 0;
 }
