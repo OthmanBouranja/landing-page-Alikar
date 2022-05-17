@@ -468,7 +468,7 @@ document.querySelector  (".contact-form").addEventListener("submit", submitForm)
         Host : "smtp.gmail.com",
         Username : "alikar.contact@gmail.com",
         Password : "tqmrfveykpinzxof",
-        To : 'alikarmaroc@gmail.com',
+        To : 'CONTACT@ALIKAR.MA',
         From : "alikar.contact@gmail.com",  
         Subject : `Alikar Contactez Nous`,
         Body : `Name: 🤵 ${fullName} <br/> Numero: 📞 ${numero} <br/> Email: 📧 ${email}  <br/> Message: 📩 ${message}`,
