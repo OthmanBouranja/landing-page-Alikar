@@ -59,7 +59,7 @@ jQuery(document).ready(function ($) {
     });
      $("body").on("click", ".site-nav-wrap .nav-link", function (e) {
        var $this = $(this);
-       console.log("close");
+      //  console.log("close");
       e.preventDefault();
       if ($("body").hasClass("offcanvas-menu")) {
         $("body").removeClass("offcanvas-menu");
@@ -385,7 +385,7 @@ var counts2 = document.querySelector('.countes');
 
 
 
-console.log('count',counts);
+// console.log('count',counts);
 var interval = null
 var someFunction =null
 var count = 0;
@@ -418,7 +418,7 @@ var porso = '%';
    }
 
    function scroll() {
-    console.log('=====================================================================================>');
+    // console.log('=====================================================================================>');
     interval =  setTimeout(function () {
       count ++;
       c = c+4;
@@ -428,7 +428,7 @@ var porso = '%';
 var test=false
    someFunction = window.addEventListener('scroll', function(e) {
        var  last_known_scroll_position = window.scrollY;
-       console.log(last_known_scroll_position);
+      //  console.log(last_known_scroll_position);
        if(last_known_scroll_position > 850){
          scroll() 
        }
@@ -507,11 +507,36 @@ function countIni() {
 
 someFunction = window.addEventListener('scroll', function(e) {
   var  last_known_scroll_position = window.scrollY;
-  console.log(last_known_scroll_position);
+  // console.log(last_known_scroll_position);
   if(last_known_scroll_position > 850){
     countIni();
   }
 
+});
+
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel({
+
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:3,
+            nav:true,
+            loop:false
+        }
+    }
+
+  });
 });
 
 
